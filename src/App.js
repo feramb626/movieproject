@@ -7,12 +7,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Homepage from './Pages/home';
+
+
 
 export default function App() {
   return (
     <Router>
-      <div>
-        <nav>
+      {/* <div> */}
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -24,7 +27,7 @@ export default function App() {
               <Link to="/users">Users</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -36,17 +39,18 @@ export default function App() {
             <Users />
           </Route>
           <Route path="/">
-            <Home />
+            <Homepage />
           </Route>
         </Switch>
-      </div>
+      {/* </div> */}
     </Router>
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+// function Home() {
+  // return <h2>Home</h2>;
+// }
+// <Home />
 
 function About() {
   return <h2>About</h2>;
