@@ -36,13 +36,30 @@ const homepage = () =>{
                 </p>
                 <h1 className="text-center pt-10 text-xl font-bold">
                     Available on your favorite devices
-                </h1> 
-                <Ico 
-                    name={"fa fa-tv fa-5x"}
-                />
-                <Ico 
-                    name={"fa fa-laptop fa-5x"}
-                />
+                </h1>
+                <div id="iconos" >
+                    <div className="w-1/2 items-center">
+                        <Ico 
+                            name={"fa fa-tv fa-5x"}
+                        />
+                    </div>
+                    <div className="w-1/2 items-center">
+                        <Ico 
+                            name={"fa fa-laptop fa-5x"}
+                        />  
+                    </div>                    
+                    <div className="w-1/2 items-center">
+                        <Ico 
+                            name={"fa fa-mobile fa-5x"}
+                        />
+                    </div>
+                    <div className="w-1/2 items-center">
+                        <Ico 
+                            name={"fa fa-gamepad fa-5x"}
+                        />  
+                    </div>                
+                </div> 
+                             
             </div>
  
 

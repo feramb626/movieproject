@@ -4,7 +4,7 @@ body{
   background-color: black;
   margin: 0px;
   align-items: center;
-  color: white;/* ESTE ES EL QUE NO ESTABA ?*/
+  color: white;
 }
 
 code {
@@ -14,4 +14,11 @@ code {
 
 #linea {
   border-top: 2px solid white;
+}
+
+#iconos{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
