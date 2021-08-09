@@ -38,25 +38,51 @@ const homepage = () =>{
                     Available on your favorite devices
                 </h1>
                 <div id="iconos" >
-                    <div className="w-1/2 items-center">
+                    <div className="icon">
                         <Ico 
                             name={"fa fa-tv fa-5x"}
                         />
+                        <ul className="text-center pt-6 text-xs">
+                            <li>Amazon Fire TV</li>
+                            <li>Android TV</li>
+                            <li>Apple TV</li>
+                            <li>Chromecast</li>
+                            <li>LG TVs</li>
+                            <li>Roku</li>
+                            <li>Samsung</li>
+                        </ul>
                     </div>
-                    <div className="w-1/2 items-center">
+                    <div className="icon">
                         <Ico 
                             name={"fa fa-laptop fa-5x"}
                         />  
+                        <ul className="text-center pt-6 text-xs">
+                            <li>Chorme OS</li>
+                            <li>MacOS</li>
+                            <li>Windows PC</li>
+                        </ul>
                     </div>                    
-                    <div className="w-1/2 items-center">
+                    <div className="icon">
                         <Ico 
                             name={"fa fa-mobile fa-5x"}
                         />
+                        <ul className="text-center pt-6 text-xs">
+                            <li>Amazon Fire Tablets</li>
+                            <li>Android Phones & Tablets</li>
+                            <li>Iphone & ipad</li>
+                        </ul>
                     </div>
-                    <div className="w-1/2 items-center">
+                    <div className="icon">
                         <Ico 
                             name={"fa fa-gamepad fa-5x"}
-                        />  
+                        /> 
+                        <ul className="text-center pt-6 text-xs">
+                            <li>PS4</li>
+                            <li>PS5</li>
+                            <li>Xbox One</li>
+                            <li>Xbox Series X</li>
+                            <li>Xbox Series S</li> 
+                        </ul> 
                     </div>                
                 </div> 
                              
