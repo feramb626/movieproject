@@ -85,7 +85,9 @@ const homepage = () =>{
                         </ul> 
                     </div>                
                 </div> 
-                             
+                <div className="text-center pt-8 text-xs font-bold">
+                    <p>@2021</p>
+                </div>         
             </div>
  
 

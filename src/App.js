@@ -8,31 +8,20 @@ import {
   Link
 } from "react-router-dom";
 import Homepage from './Pages/home';
+import Loginpage from './Pages/login';
 
 
 
 export default function App() {
   return (
     <Router>
-      {/* <div> */}
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
-
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+        <Route path="/login">
+            <Loginpage />
+          </Route>
+          <Route path="/home">
             <About />
           </Route>
           <Route path="/users">
@@ -46,11 +35,6 @@ export default function App() {
     </Router>
   );
 }
-
-// function Home() {
-  // return <h2>Home</h2>;
-// }
-// <Home />
 
 function About() {
   return <h2>About</h2>;

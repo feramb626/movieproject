@@ -1,27 +1,19 @@
 #background{
     display: flex;
     height: 257px;
-    /* width: 375px; */
     background-size:cover;
     background-image: url('./pexels.jpg');
     background-repeat: no-repeat;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aquamarine;
 }
 
 @media (min-width: 768px){
 
     #background{
         height: 485px;
-        /* width:783px; */
     }
-
-    /* .icono{
-        margin-top: 20px;
-        width: 25%;
-    } */
 }
 
 @media (min-width: 1024px){

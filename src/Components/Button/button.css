@@ -19,3 +19,12 @@
     height: 2rem;
     width: 13rem;
 }
+
+#email, #pass, #country, #name, #confirm{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 90%;
+    background-color: white;
+    color: #3177FF;
+    text-align: left;
+}
