@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 import Homepage from './Pages/home';
 import Loginpage from './Pages/login';
-
+import Signuppage from './Pages/Signup';
+import Moviepage from './Pages/Movies';
 
 
 export default function App() {
@@ -18,14 +19,18 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+        <Route path="/signup">
+            {/* <Test />   */}
+            <Signuppage />
+        </Route>
         <Route path="/login">
             <Loginpage />
           </Route>
           <Route path="/home">
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/movie">
+            <Moviepage />
           </Route>
           <Route path="/">
             <Homepage />
@@ -40,6 +45,8 @@ function About() {
   return <h2>About</h2>;
 }
 
-function Users() {
-  return <h2>Users</h2>;
+function Test() {
+  return <h2>Test</h2>;
 }
+
+

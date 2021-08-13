@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Background from '../Components/Background/background';
 import Button from '../Components/Button/button';
 
+
 const loginpage = () =>{
 
     return(
@@ -20,6 +21,9 @@ const loginpage = () =>{
                 text={"LOG IN NOW"}
                 clas={"button-signup"}
             />
+            <div className="text-center pt-8 text-xs font-bold">
+                <p>@2021</p>
+            </div>             
         </div>
     )
 }

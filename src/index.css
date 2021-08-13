@@ -28,6 +28,37 @@ code {
   align-items: center;
 }
 
+.div-h{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textobold{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.transp{
+  background: rgba(5, 120, 255, 0.29);
+  width: 12rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.texto-azul{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #0578FF;
+}
+
+.center{
+  text-align: center;
+}
 @media (min-width: 768px){
   .icon{
     width: 25%;

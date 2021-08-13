@@ -1,0 +1,11 @@
+#radio{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+#radio-label{
+    margin-left: 10px;
+}
